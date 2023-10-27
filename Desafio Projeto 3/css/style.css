@@ -1,0 +1,74 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+header{
+    height: 100px;
+}
+
+.main {
+    max-width: 70%;
+    
+    grid-gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    border-left: solid 1px #cdcdcd;
+    border-right: solid 1px #cdcdcd;
+}
+footer {
+    min-height: 100px;
+    border-top: solid 1px #af7c7c;
+}
+
+ nav ,aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    padding: 15px;
+    height: 100vh;
+}
+nav{
+    
+    width: 15%;
+}
+aside{
+    width: 15%;
+}
+
+figure {
+    text-align: center;
+    
+}
+.logo{
+    text-align: left;
+}
+
+.capaJogo{
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+    
+}
